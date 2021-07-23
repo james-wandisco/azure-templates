@@ -11,6 +11,7 @@ login to azure
 `az login`
 
 Know/Choose your resource group
+
 `az group list -o table | grep hughes`
 
 run the following
