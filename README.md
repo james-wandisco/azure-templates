@@ -14,7 +14,7 @@ Know/Choose your resource group
 
 `az group list -o table | grep hughes`
 
-run the following
+Create VM with your choosen template.
 
 `az group deployment create --resource-group <my-resource-group> --template-uri https://github.com/james-wandisco/azure-templates/blob/main/ubuntu-MyVNET-tomcat.json`
 
